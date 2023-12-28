@@ -1,0 +1,32 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  width: 100vw;
+}
+.fields {
+  min-width: 100%;
+  min-height: 100%;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.modal-content {
+  height: 600px; /* Adjust the height as needed */
+}
+
+/* Or, if you want to adjust the modal dialog size */
+.modal-dialog {
+  max-width: 800px; /* Adjust the max-width as needed */
+}
+
+.block {
+  width: 100%;
+}
+/* CSS for the drag icon */
+.draggable-element {
+  cursor: grab;
+}
+
+.dragging {
+  cursor: grabbing;
+}
